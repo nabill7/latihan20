@@ -1,0 +1,50 @@
+body {
+    font-family:Arial,sans-aerif;
+    background: #f0f0f0;
+    height: 100vh;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: cen;
+}
+ 
+ .card{
+     background: white;
+     padding: 25px;
+     border-radius: 10px;
+     box-shadow: 0 0 8px rgba(0,0,0,0.1);
+ }
+ 
+ h2{
+     text-align: center;
+     margin-top: 0;
+ }
+ 
+ button{
+     width: 100%;
+     padding: 10px;
+     margin-top: 10px;
+     border-radius: 6px;
+     border: none;
+     background: #3498db;
+     color: #D0D0D0;
+     font-size: 15px;
+     cursor: pointer;
+ }
+ 
+ button:hover{
+     background: #2980b9;
+ }
+ 
+ #hasil{
+     margin-top: 15px;
+     font-size: 14px;
+     line-height: 1.5;
+ }
+ 
+ .ringkasan{
+     margin-top: 10px;
+     padding-top: 10px;
+     border-top: 1px solid #ccc;
+     font-weight: bold;
+ }
